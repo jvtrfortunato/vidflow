@@ -1,25 +1,17 @@
 {
-  "name": "vidflow",
-  "version": "1.0.0",
-  "description": "![Imagem de capa do curso. O título é \"3519 - Node.js e terminal\" e o subtítulo é \"Dominando o ambiente de desenvolvimento front-end\".](./thumb.png)",
-  "homepage": "https://github.com/jvtrfortunato/vidflow#readme",
-  "bugs": {
-    "url": "https://github.com/jvtrfortunato/vidflow/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jvtrfortunato/vidflow.git"
-  },
-  "license": "ISC",
-  "author": "",
-  "type": "commonjs",
-  "main": "script.js",
+  "name": "nodejs-vidflow-vite",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
     "api-local": "json-server --watch backend/videos.json",
     "lint": "eslint ."
   },
   "devDependencies": {
+    "vite": "^4.4.5",
     "eslint": "8.52.0",
     "json-server": "0.17.4",
     "prettier": "3.0.3"
